@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="menu">
+
+                <h2 class="menu-title">Table of content</h2>
+
+                <ul class="menu_list">
+                    <li class = "menu_list-item">
+                        <a href="#gioi_thieu">I. Giới thiệu:</a>
+                        <ul class = "menu_list2">
+                            <li class = "menu_list2-item"><a href="#tong_quan">1. Tổng quan ứng dụng:</a></li>
+                            <li class = "menu_list2-item"><a href="#yeu_cau">2. Yêu cầu ứng dụng:</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="menu_list">
+                    <li class = "menu_list-item">
+                        <a href="#chuc_nang_quan_ly">II. Chức năng cho người quản lý:</a>
+                        <ul class = "menu_list2">
+                            <li class = "menu_list2-item"><a href="#quan_ly_nhan_vien">1. Chức năng "Quản lý nhân viên":</a></li>
+                            <li class = "menu_list2-item"><a href="#quan_ly_tai_khoan">2. Chức năng "Quản lý tài khoản":</a></li>
+                            <li class = "menu_list2-item"><a href="#quan_ly_thong_ke">3. Chức năng "Quản lý thống kê":</a></li>
+                        </ul>
+                    </li>
+
+                    <li class = "menu_list-item" style = "margin-top: 10px;">
+                        <a href="#chuc_nang_nhan_vien">III. Chức năng của nhân viên lễ tân:</a>
+                        <ul class = "menu_list2">
+                            <li class = "menu_list2-item"><a href="#quan_ly_san_pham">1. Chức năng "Quản lý sản phẩm":</a></li>
+                            <li class = "menu_list2-item"><a href="#quan_ly_khach_hang">2. Chức năng "Quản lý khách hàng":</a></li>
+                            <li class = "menu_list2-item"><a href="#quan_ly_phong">3. Chức năng "Quản lý phòng":</a></li>
+                            <li class = "menu_list2-item"><a href="#dat_phong">3. Chức năng "Đặt phòng":</a></li>
+                            <li class = "menu_list2-item"><a href="#dat_truoc">3. Chức năng "Đặt trước":</a></li>
+                            <li class = "menu_list2-item"><a href="#thanh_toan">3. Chức năng "Thanh toán":</a></li>
+                            <li class = "menu_list2-item"><a href="#xuat_hoa_don">3. Chức năng "Xuất hóa đơn":</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- END MENU -->
+
+            <div class="main-content">
+
+                <div class="main-content__header">
+                    <p>Tài liệu hướng dẫn phần mềm quản lý karaoke</p>
+                </div>
+
+                <div class = "main-content__item">
+                    <p id ="gioi_thieu" style ="color: #ba3925;">I. Giới thiệu:</p>
+                    <p id ="tong_quan" style="margin:8px 0 0 8px; color: #ba3925;">1. Tổng quan ứng dụng:</p>
+                    <p id ="yeu_cau" style="margin:8px 0 8px 8px; color: #ba3925;">2. Yêu cầu ứng dụng:</p>
+                    <!-- END I. GIỚI THIỆU -->
+
+                    <div>
+                        <p id ="chuc_nang_quan_ly" style="color: #ba3925;">II. Chức năng cho người quản lý:</p>
+                        <p id ="quan_ly_nhan_vien" style="margin:8px 0 0 8px; color: #ba3925;">1. Chức năng quản lý nhân viên:</p>
+                        <div style="margin-top: 30px; text-align: center; margin-bottom: 20px;">
+                            <img src="assets/img/quanlynhanvien.png" alt="">
+                            <p style="margin-top: 10px; text-align: center; font-size: 14px; font-style: italic;">Hình 1. Quản lý nhân viên.</p>
+                        </div>
+    
+                        <pre>
+1: Nhấn button Quản lý nhân viên để hiện giao diện quản lý nhân viên.
+
+2: Các trường dùng để nhập thông tin nhân viên. 
+
+3: Bảng hiển thị danh sách nhân viên.
+
+4: Nhập thông tin nhân viên (1), nhấn button “Thêm” để thêm nhân viên.
+
+5: Chọn nhân viên cần cập nhật trong bảng danh sách nhân viên (3), nhập các thông tin cần chỉnh sửa (2) và
+nhấn button “Cập nhật” để cập nhật nhân viên.
+
+6: Nhấn button “Làm mới” để làm mới các trường nhập liệu (2) và danh sách nhân viên (3).
+
+7: Nhấn button “Mở hình” để chọn hình cho nhân viên (nếu muốn).
+
+8: Chọn mã nhân viên cần tìm và nhấn nút “Tìm Kiếm”, thông tin nhân viên sẽ được hiển thị trong danh sách nhân viên (3).
+
+9: Hiển thị tên và vai trò của nhân viên.
+
+10: Nhấn button “Đăng xuất” để thoát khỏi ứng dụng.
+                        </pre>
+                    </div>
+                    <!-- END CHỨC NĂNG QUẢN LÝ NHÂN VIÊN -->
+                    
+                    <div>
+                        <p id ="quan_ly_tai_khoan" style="margin:8px 0 0 8px; color: #ba3925;">2. Chức năng quản lý tài khoản:</p>
+                        <div style="margin-top: 30px; text-align: center; margin-bottom: 20px;">
+                            <img src="assets/img/quanlytaikhoan.png" alt="">
+                            <p style="margin-top: 10px; text-align: center; font-size: 14px; font-style: italic;">Hình 2. Quản lý tài khoản.</p>
+                        </div>
+    
+                        <pre>
+1: Nhấn button Quản lý tài khoản để hiện giao diện quản lý tài khoản.
+
+2: Các trường dùng để nhập thông tin tài khoản. 
+
+3: Bảng hiển thị danh sách tài khoản nhân viên.
+
+4: Nhập thông tin tài khoản nhân viên (2), nhấn button “Thêm” để thêm tài khoản nhân viên.
+
+5: Chọn tài khoản nhân viên cần xóa trong bảng danh sách tài khoản nhân viên (3), nhấn button “Xóa” để
+xóa tài khoản nhân viên.
+
+6: Nhấn button “Làm mới” để làm mới các trường nhập liệu (2) và danh sách tài khoản (3).
+
+7: Chọn tên đăng nhập trong combobox và nhấn nút “Tìm”, thông tin tài khoản nhân viên
+sẽ được hiển thị trong danh sách tài khoản nhân viên (3).                           
+                        </pre>
+                    </div>
+                    <!-- END CHỨC NĂNG QUẢN LÝ TÀI KHOẢN -->
+
+                    <div>
+                        <p id ="quan_ly_thong_ke" style="margin:8px 0 0 8px; color: #ba3925;">3. Chức năng quản lý thống kê:</p>
+                        <div style="margin-top: 30px; text-align: center; margin-bottom: 20px;">
+                            <img src="assets/img/quanlythongke.png" alt="">
+                            <p style="margin-top: 10px; text-align: center; font-size: 14px; font-style: italic;">Hình 3. Quản lý thống kê.</p>
+                        </div>
+    
+                        <pre>
+1: Nhấn button “Thống kê” để hiển thị giao diện Thống kê.
+
+2: Biểu đồ hiển thị danh thu theo từng ngày.
+
+3: Biểu đồ hiển thị số lượng sản phẩm bán được.
+
+4: Chọn khoảng thời gian muốn thống kê, biểu đồ sẽ thay đổi theo khoảng thời gian dược chọn.                                                    
+                        </pre>
+                    </div>
+                    <!-- END CHỨC NĂNG THỐNG KÊ -->
+
+                    <div>
+                        <p id ="chuc_nang_nhan_vien" style ="color: #ba3925;">III. Chức năng của nhân viên lễ tân:</p>
+                        <p id ="quan_ly_san_pham" style="margin:8px 0 0 8px; color: #ba3925;">1. Chức năng "Quản lý sản phẩm":</p>
+                        <div style="margin-top: 30px; text-align: center; margin-bottom: 20px;">
+                            <img src="assets/img/QUANLYSANPHAM.png" alt="">
+                            <p style="margin-top: 10px; text-align: center; font-size: 14px; font-style: italic;">Hình 1. Quản lý nhân viên.</p>
+                        </div>
+    
+                        <pre>
+1: Nhấn button “Quản lý sản phẩm” để hiện giao diện quản lý sản phẩm 
+
+2: Các trường dùng để nhập thông tin sản phẩm. 
+
+3: Bảng hiển thị danh sách sản phẩm.
+
+4: Nhập thông tin sản phẩm (2), nhấn button “Thêm” để thêm sản phẩm.
+
+5: Chọn 1 sản phẩm cần cập nhật trong bảng danh sách sản phẩm (3), nhập các thông tin cần chỉnh sửa (2) và
+nhấn button “Cập nhật” để cập nhật sản phẩm.
+
+6: Chọn 1 sản phẩm cần xóa trong bảng danh sách sản phẩm (3), nhấn button “Xóa” để xóa sản phẩm.
+
+7: Các trường dùng để nhập thông tin loại sản phẩm. 
+
+8: Bảng hiển thị danh sách loại sản phẩm.
+
+9: Nhập thông tin loại sản phẩm (7), nhấn button “Thêm” để thêm loại sản phẩm.
+
+10: Chọn 1 loại sản phẩm cần cập nhật trong bảng danh sách loại sản phẩm (8), nhập các thông tin cần chỉnh sửa (7)
+và nhấn hấn button “Cập nhật” để cập nhật loại sản phẩm.
+
+11: Chọn 1 loại sản phẩm cần xóa trong bảng danh sách loại sản phẩm (8), nhấn button “Xóa” để xóa loại sản phẩm.
+
+12: Nhấn button “Làm mới” để làm mới các trường nhập liệu (2, 7) và danh sách sản phẩm (3, 8).
+
+13: Chọn tên sản phẩm trong combobox và nhấn nút “Tìm”, thông tin sản phẩm sẽ được hiển thị trong danh sách sản phẩm (3).
+                            
+                        </pre>
+                    </div>
+                    <!-- END CHỨC NĂNG QUẢN LÝ SẢN PHẨM -->
+
+                    <div>
+                        <p id ="quan_ly_khach_hang" style="margin:8px 0 0 8px; color: #ba3925;">2. Chức năng "Quản lý khách hàng":</p>
+                        <div style="margin-top: 30px; text-align: center; margin-bottom: 20px;">
+                            <img src="assets/img/quanlykhachhang.png" alt="">
+                            <p style="margin-top: 10px; text-align: center; font-size: 14px; font-style: italic;">Hình 5. Quản lý khách hàng.</p>
+                        </div>
+    
+                        <pre>
+1: Nhấn button “Quản lý khách hàng” để hiện giao diện quản lý khách hàng.
+
+2: Các trường dùng để nhập thông tin khách hàng.
+
+3: Bảng hiển thị danh sách khách hàng.
+
+4: Nhập các thông tin sản phẩm (2), nhấn button “Thêm” để thêm khách hàng.
+
+5: Chọn 1 khách hàng cần chỉnh sửa trong bảng danh sách khách hàng (3), nhập thông tin khách hàng cần chỉnh sửa (2)
+và nhấn button “Sửa” để sửa khách hàng.                                                  
+                        </pre>
+                    </div>
+                    <!-- END CHỨC NĂNG "Quản lý khách hàng" -->
+
+                    <div>
+                        <p id ="quan_ly_phong" style="margin:8px 0 0 8px; color: #ba3925;">3. Chức năng "Quản lý phòng":</p>
+                        <div style="margin-top: 30px; text-align: center; margin-bottom: 20px;">
+                            <img src="assets/img/quanlyphong.png" alt="">
+                            <p style="margin-top: 10px; text-align: center; font-size: 14px; font-style: italic;">Hình 5. Quản lý phòng.</p>
+                        </div>
+    
+                        <pre>
+1: Nhấn button “Quản lý phòng” để hiện giao diện quản lý phòng.
+
+2: Các trường dùng để nhập thông tin phòng.
+
+3: Bảng hiển thị danh sách phòng.
+
+4: Nhập thông tin phòng (2), nhấn button “Thêm Phòng” để thêm phòng.
+
+5: Chọn phòng cần xóa trong bảng danh sách phòng (3), nhấn button “Xóa Phòng” để xóa phòng.
+
+6: Chọn 1 phòng cần chỉnh sửa trong bảng danh sách phòng (3), nhập thông tin cần chỉnh sửa (2) 
+và nhấn button “Cập nhật” để cập nhật.
+
+7: Chọn trạng thái phòng trong combobox (“Trống”, “Đang sử dụng”), thông tin phòng sẽ được 
+hiển thị trong danh sách phòng (3).	                                                         
+                        </pre>
+                    </div>
+                    <!-- END CHỨC NĂNG "Quản lý phòng" -->
+
+                    <div>
+                        <p id ="dat_phong" style="margin:8px 0 0 8px; color: #ba3925;">4. Chức năng "Đặt phòng":</p>
+                        <div style="margin-top: 30px; text-align: center; margin-bottom: 20px;">
+                            <img src="assets/img/datphong.png" alt="">
+                            <p style="margin-top: 10px; text-align: center; font-size: 14px; font-style: italic;">Hình 6. Đặt phòng.</p>
+                        </div>
+    
+                        <pre>
+1: Nhấn button “Đặt phòng” để hiện giao diện đặt phòng.
+
+2: Nhập số điện thoại khách hàng muốn đặt phòng và nhấn nút tìm để hiện thông tin khách hàng đến đặt phòng.
+
+3: Danh sách phòng trống.
+
+4: Danh sách các đơn đặt phòng.
+
+5: Sau khi tìm kiếm khách hàng thành công và chọn phòng trống theo yêu cầu của khách,
+nhấn nút “Thuê ngay” để đặt phòng cho khách hàng nhận phòng trực tiếp, đồng thời thông
+tin đơn đặt phòng sẽ hiện vào danh sách đơn đặt phòng (4).
+
+6: Làm mới danh sách đơn đặt phòng (4) và các thông tin của 
+khách hàng (2) về trạng thái ban đầu.
+
+7: Chọn các tiêu chí tìm kiếm trong combobox, nhập thông tin vào textfield,
+ kết quả tìm kiếm sẽ hiển thị vào danh sách các đơn đặt phòng (4).
+
+8: Bấm “Đặt trước” nếu khách hàng muốn đặt phòng trước, sau khi nhấn button,
+1 giao diện Đặt trước sẽ hiện ra.                                                                                  
+                        </pre>
+                    </div>
+                    <!-- END CHỨC NĂNG ĐẶT PHÒNG -->
+
+                    <div>
+                        <p id ="dat_truoc" style="margin:8px 0 0 8px; color: #ba3925;">5. Chức năng "Đặt trước":</p>
+                        <div style="margin-top: 30px; text-align: center; margin-bottom: 20px;">
+                            <img src="assets/img/dattruoc.png" alt="">
+                            <p style="margin-top: 10px; text-align: center; font-size: 14px; font-style: italic;">Hình 7. Màn hình chức năng "Đặt trước".</p>
+                        </div>
+    
+                        <pre>
+1: Nhập số điện thoại khách hàng muốn đặt phòng và nhấn nút tìm để hiện
+thông tin khách hàng đến đặt phòng.
+
+2: Chọn phòng khách hàng muốn đặt trước và nhấn tìm phòng,
+danh sách các phòng trống sẽ hiện ra (3).
+
+3: Danh sách phòng trống.
+
+4: Danh sách các đơn đặt phòng.
+
+5: Sau khi tìm kiếm khách hàng thành công và chọn phòng trống theo yêu cầu của khách,
+nhấn nút “Đặt phòng trước” để đặt phòng cho khách hàng, đồng thời thông tin đơn đặt
+phòng sẽ hiện vào danh sách đơn đặt phòng (4).
+
+6: Nhấn nút “Nhận Phòng” nếu khách hàng đến nhận phòng, đồng thời thông tin.
+
+đơn đặt phòng sẽ hiện vào danh sách đơn đặt phòng (4).
+
+7: Nhấn nút “Hủy đơn đặt” nếu đã đến thời gian nhận phòng mà khách hàng không
+đến nhận phòng hoặc hủy đơn đặt theo yêu cầu của khách hàng.
+
+8: Làm mới danh sách đơn đặt phòng (4) và các thông tin của khách hàng (2) về trạng thái ban đầu.
+
+9: Chọn các tiêu chí tìm kiếm trong combobox, nhập thông tin vào textfield,
+kết quả tìm kiếm sẽ hiển thị vào danh sách các đơn đặt phòng (4).
+
+10: Chọn các tiêu chí tìm kiếm trong combobox, kết quả tìm kiếm
+sẽ hiển thị vào danh sách các đơn đặt phòng (4).                                                                                                          
+                        </pre>
+                    </div>
+                    <!-- END CHỨC NĂNG ĐẶT ĐẶT TRƯỚC-->
+
+
+                    <div>
+                        <p id ="thanh_toan" style="margin:8px 0 0 8px; color: #ba3925;">6. Chức năng "Thanh toán":</p>
+                        <div style="margin-top: 30px; text-align: center; margin-bottom: 20px;">
+                            <img src="assets/img/thanhtoan.png" alt="">
+                            <p style="margin-top: 10px; text-align: center; font-size: 14px; font-style: italic;">Hình 8. Màn hình chức năng "Thanh toán".</p>
+                        </div>
+    
+                        <pre>
+1: Nhấn button “Thanh toán” để hiện giao diện thanh toán.
+
+2: Chọn đơn đặt phòng muốn order dịch vụ. 
+
+3: Các trường hiển thị thông tin khách hàng, phòng và đơn giá phòng.
+
+4: Chọn loại sản phẩm để lọc sản phẩm theo loại.
+
+5: Chọn sản phẩm để thêm thực phẩm cho khách hàng.
+
+6: Nhập số lượng thực phẩm cần order.
+
+7: Nhấn button “Thêm thực phẩm” để thêm thực phẩm.
+
+8: Chọn thực phẩm cần xóa trong danh sách chi tiết hóa đơn (11), nhấn button “Xóa” để xóa thực phẩm.
+
+9: Chọn thực phẩm cần thay đổi trong danh sách chi tiết hóa đơn (11), nhập số lượng cần thay đổi (6)
+sau đó nhấn button “Cập nhật” để cập nhật số lượng thực phẩm.
+
+10: Nhấn button “Làm mới” để làm mới dữ liệu.
+
+11: Danh sách chi tiết hóa đơn của 1 hóa đơn.
+
+12: Tổng tiền dịch vụ của khách hàng.
+
+13: Hiển thị thông tin nhân viên đang đăng nhập.
+
+14: Tổng tiền của hóa đơn.
+
+15: Nhập tiền khách đưa.
+
+16: Tiền thừa cần trả khách hàng.     
+
+17: Nhấn button “Thanh toán” để thanh toán hóa đơn.
+
+18: Nhấn button “Xem danh sách hóa đơn” để xem danh sách hóa đơn theo nhân viên lập.
+
+19: Chọn các tiêu chí tìm kiếm trong combobox, nhập thông tin vào textfield,
+kết quả tìm kiếm sẽ hiển thị vào danh sách phòng đang sử dụng (2).
+                        </pre>
+                    </div>
+                    <!-- END CHỨC NĂNG THANH TOÁN-->
+
+                    <div>
+                        <p id ="xuat_hoa_don" style="margin:8px 0 0 8px; color: #ba3925;">7. Chức năng "Xuất hóa đơn":</p>
+                        <div style="margin-top: 30px; text-align: center; margin-bottom: 20px;">
+                            <img src="assets/img/xuathoadon.png" alt="">
+                            <p style="margin-top: 10px; text-align: center; font-size: 14px; font-style: italic;">Hình 9. Màn hình chức năng "Xuất hóa đơn".</p>
+                        </div>
+    
+                        <pre>
+1: Chọn các tiêu chí tìm kiếm trong combobox, nhập thông tin vào textfield,
+kết quả tìm kiếm sẽ hiển thị vào danh sách hóa đơn (2).
+
+2: Danh sách hóa đơn theo nhân viên lập.
+
+3: Nhấn 1 hóa đơn nào đó trong bảng danh sách hóa đơn (2),
+danh sách các chi tiết hóa đơn của 1 hóa đơn sẽ hiện lên (3).
+
+4: Nhấn button “Xuất hóa đơn” nếu muốn xuất 1 hóa đơn nào đó.
+
+5: Nhấn button “Quay lại” nếu muốn quay lại màn hình thanh toán.                                                                                                        
+                        </pre>
+                    </div>
+                </div>
+
+            </div>
+            <!-- END MAIN CONTENT -->
+        </div>
+        <!-- END CONTENT -->
+    </div>
+</body>
+</html>
